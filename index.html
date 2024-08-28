@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Em busca do Bisteca</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="tipora">
+            <p>Em um dia comum da ilha de Tipora eu acordei com a triste noticia de que o mascote da ilha Bisteca desapareceu e os moradores me deram a função de encontra-lo. Logo parti atrás das pistas!! </p>
+            <button class="btn-proximo" data-proximo="1">Seguir pela praia</button>
+            <button class="btn-proximo" data-proximo="2">Seguir para dentro da floresta</button>
+       </div>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você segue pela praia ate a casa de um dos moradores da ilha, Milo e seu pai.</p>
+            <button class="btn-proximo" data-proximo="3">Falar com os dois</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class= "passo" id="passo-2"> 
+         <p>Você segue o caminho da floresta ate ouvir barulhos nas arvores ao seu redor, o que você faz?</p> 
+         <button class="btn-proximo" data-proximo="5">Permanecer na trilha segura</button>
+         <button class="btn-proximo" data-proximo="6">Seguir os barulhos para dentro da floresta</button>
+        </div>
+        <div class="passo" id="passo-3">
+        <p>Você escolhe falar com Milo e seu pai, e eles o informam que viram um rastro em direção a Mansão.</p>
+        <button class="btn-proximo" data-proximo="7">Seguir o rastro.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo04.png" alt="imagem desistindo">
+            <p>Você se sente ameaçado e volta para sua casa, passando sua missão para Amelie.</p>
+            </div>
+            <div class="passo" id="passo-5">
+            <p>Permanecendo na trilha segura, você encontra rastros e os segue.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o rastro.</button>
+            </div>
+            <div class="passo" id="passo-6">
+                <p>Seguindo os barulhos, você se depara com Amorinha brincando. Ela te informa que viu alguns rastros e aponta a direção correta.</p>
+                <button class="btn-proximo" data-proximo="7">Seguir o rastro.</button>
+                </div>
+                <div class="passo" id="passo-7">
+                <p>Seguindo os rastros você se depara com uma bifurcação:.</p>
+                <button class="btn-proximo" data-proximo="8">Caminho mais longo</button>
+                <button class="btn-proximo" data-proximo="9">Caminho mais curto</button>
+                </div>
+                <div class="passo" id="passo-8">
+                    <p>Optando por seguir o caminho mais longo, ao andar mais ou menos 40 minutos você chega em uma grande Mansão.</p>
+                    <img src="img/cenario-passo08.png" alt="mansão">
+                    <button class="btn-proximo" data-proximo="10">Explorar a Mansão.</button>
+                    </div>
+
+                <div class="passo" id="passo-9">
+                    <p>Você escolhe seguir o caminho mais curto, andando um pouco você se depara com várias árvores caídas impedindo a passagem. Vendo que você está sem saída, retornar ao caminho mais longo é a melhor opção.</p>
+                    <button class="btn-proximo" data-proximo="8">Retornar para o caminho mais longo.</button>
+                    </div>
+                    <div class="passo" id="passo-10">
+                        <img src="img/cenario-final.png" alt="bistequinha dormindo">
+                        <p>Adentrando a Mansão você vê o Bisteca, mascote da ilha, dormindo calmamente no assoalho.</p>
+                        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
