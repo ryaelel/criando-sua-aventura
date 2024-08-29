@@ -2,6 +2,7 @@ body {
     background-color: rgb(55, 158, 199);
     color: black;
     font-family: "Nerko One", cursive;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +13,7 @@ button {
     background-color:  rgb(87, 202, 248);
     color: black;
     font-family: "Nerko One", cursive;
+    font-size: 20px;
 }
 
 .passo {
